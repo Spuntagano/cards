@@ -1,0 +1,22 @@
+.ui {
+  font-family: arial, sans-serif;
+
+  .button-container {
+    button {
+      background-color: #ccc;
+      border-width: 0;
+      padding: 3px 7px;
+      margin: 7px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .card-container {
+    border: #ccc solid 1px;
+    height: 350px;
+    width: 250px;
+  }
+}
